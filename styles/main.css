@@ -91,21 +91,19 @@
   color: #00acdc; }
 
 .card-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 0 16px;
+  grid-gap: 48px;
+  margin: 50px auto 0;
   max-width: 1191px;
-  margin: 50px auto 0; }
+  padding: 0 40px; }
 
 .product-card {
-  margin: 0 24px 50px;
   padding: 15px 14px 16px;
+  margin-bottom: 2px;
   max-width: 200px;
   max-height: 403px;
   -webkit-box-sizing: border-box;
